@@ -1,9 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /home/bingdeng/projects/demo/target/scala-2.11/hello-world_2.11-1.0.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/bingdeng/projects/demo/target/scala-2.11/classes/Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/bingdeng/projects/demo/target/scala-2.11/classes/Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/bingdeng/projects/demo/target/scala-2.11/classes/Main$delayedInit$body.class[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

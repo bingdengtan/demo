@@ -23,16 +23,10 @@ version := "1.0"
 
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
-libraryDependencies += "com.datastax.spark" % "spark-cassandra-connector_2.11" % "2.0.11"
-libraryDependencies += "com.datastax.cassandra" % "cassandra-driver-core" % "3.6.0"
-libraryDependencies += "com.datastax.oss" % "java-driver-core" % "4.0.0"
-libraryDependencies += "org.apache.spark" % "spark-streaming_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-sql_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-streaming-kafka-0-8-assembly_2.10" % "2.2.3"
-libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.2.0"
-libraryDependencies += "commons-configuration" % "commons-configuration" % "1.7"
-libraryDependencies += "io.netty" % "netty-transport-native-epoll" % "4.1.30.Final" classifier "linux-x86_64"
+libraryDependencies += "org.apache.hadoop" % "hadoop-hdfs" % "3.0.0"
+libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "3.0.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.2.0" % "provided"
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.0.0"
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
 // and fetch when it starts up.
